@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Main4Activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp"
+        >
+
+        <TextView
+            android:id="@+id/text_view_p1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="X : "
+
+            android:textAlignment="center"
+            android:textSize="24sp" />
+        <EditText
+            android:id="@+id/etNX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="7"
+            android:background="#FFFC4E"
+            android:hint="X NAME"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/text_view_p2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="O :"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+        <EditText
+            android:id="@+id/etNO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="7"
+            android:background="#FFFC4E"
+            android:hint="O NAME"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/turn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:hint="Turn:"
+        android:paddingStart="20px"
+        android:paddingLeft="10px"
+        android:paddingTop="30px"
+        android:paddingEnd="20px"
+        android:paddingRight="10px"
+        android:paddingBottom="30px"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/bt00"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="2dp"
+            android:tag="8"/>
+
+        <Button
+            android:id="@+id/bt01"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="2dp"
+            android:tag="8" />
+
+        <Button
+            android:id="@+id/bt02"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="2dp"
+            android:tag="8" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/bt10"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="2dp"
+            android:tag="8" />
+
+        <Button
+            android:id="@+id/bt11"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="2dp"
+            android:tag="8" />
+
+        <Button
+            android:id="@+id/bt12"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="2dp"
+            android:tag="8" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/bt20"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="2dp"
+            android:tag="8" />
+
+        <Button
+            android:id="@+id/bt21"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="2dp"
+            android:tag="8" />
+
+        <Button
+            android:id="@+id/bt22"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="2dp"
+            android:tag="8" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/btBack"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:backgroundTint="#505657"
+            android:text="Back" />
+
+        <Button
+            android:id="@+id/button_reset"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:backgroundTint="#505657"
+            android:text="NewGame" />
+    </LinearLayout>
+</LinearLayout>
